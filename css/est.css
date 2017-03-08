@@ -1,0 +1,59 @@
+.sf-menu li:hover a, .sf-menu li.sfHover a, .sf-menu ul li:hover a, .sf-menu ul li.sfHover a, .sf-menu li.active a {
+    color: #FFAA19;
+}
+
+.sf-menu li.active a:hover, .sf-menu li.active a:focus {
+    color: #FFAA19;
+}
+
+.sf-menu a:hover, .sf-menu a:focus {
+    color: #FFAA19 !important;
+}
+
+.heading-section h3 {
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    color: #FFAA19;
+}
+
+.btn.btn-primary {
+    background: #FFAA19;
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent !important;
+}
+
+#fh5co-testimonial .box-testimony blockquote .quote {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0;
+    display: table;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    margin-top: -30px;
+    background: #FFAA19;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#footer #fh5co-header-subscribe button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    background: #FFAA19;
+    border: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #848484;
+}
