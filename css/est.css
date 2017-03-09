@@ -15,6 +15,7 @@
     font-weight: 400;
     position: relative;
     color: #FFAA19;
+    text-align: center;
 }
 
 .btn.btn-primary {
@@ -83,7 +84,18 @@ a:hover {
     margin-top: 10px;
 }
 
+.panel-title{
+    font-weight: bold;
+}
 
+.panel-heading{
+    padding: 16px 10px;
+    background-color: white!important;
+}
+
+.panel-body{
+    color: black;
+}
 
 @media(max-width:767px){
     
@@ -98,4 +110,13 @@ a:hover {
         top: 0px;
         margin-top: 1em;
     }        
+}
+
+.sicon{
+    float:right;
+    margin-right: 10px;
+}
+
+::selection {
+    background: #FFAA19;
 }
