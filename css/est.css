@@ -69,3 +69,33 @@ a:hover {
 .form-control{
     color:white;
 }
+
+#offcanvas-menu ul li.active > a {
+    color: #FFAA19;
+}
+
+#offcanvas-menu ul li a:hover {
+    color: #FFAA19;
+}
+
+#logoheader{
+    height: 60px;
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:767px){
+    
+    #logoheader{
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .fh5co-nav-toggle {
+        display: block;
+        top: 0px;
+        margin-top: 1em;
+    }        
+}
