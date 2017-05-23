@@ -1,3 +1,15 @@
+body{
+    color: black;
+}
+
+body p{
+    color: black;
+}
+
+.heading-section {
+    margin-bottom: 2em;
+}
+
 .sf-menu li:hover a, .sf-menu li.sfHover a, .sf-menu ul li:hover a, .sf-menu ul li.sfHover a, .sf-menu li.active a {
     color: #FFAA19;
 }
@@ -119,4 +131,26 @@ a:hover {
 
 ::selection {
     background: #FFAA19;
+}
+
+
+.cctv-productos .fh5co-property{
+    height: 300px;
+}
+
+.property-details p{
+    color: black;
+}
+
+.products img{
+    margin: auto;
+}
+
+.products .fh5co-property {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;    
 }
