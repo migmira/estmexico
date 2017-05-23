@@ -154,3 +154,36 @@ a:hover {
     -o-transition: none;
     transition: none;    
 }
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    padding-top: 10rem; /* Location of the box */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #f1f1f1;
+    font-size: 90px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+.product-description h4{
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
