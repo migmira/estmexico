@@ -1,16 +1,5 @@
-// $(function(){
-    
-//     $("header").load('header.html')
-    
-//     $("footer").load("footer.html"); 
-// });
-
-
-
 var request = new XMLHttpRequest();
-
 request.open('GET', 'header.html', true);
-
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     var resp = request.responseText;
@@ -18,14 +7,11 @@ request.onload = function() {
     document.querySelector('header').innerHTML = resp;
   }
 };
-
 request.send();
 
 
 var requestFooter = new XMLHttpRequest();
-
 requestFooter.open('GET', 'footer.html', true);
-
 requestFooter.onload = function() {
   if (requestFooter.status >= 200 && requestFooter.status < 400) {
     var resp = requestFooter.responseText;
@@ -33,5 +19,7 @@ requestFooter.onload = function() {
     document.querySelector('footer').innerHTML = resp;
   }
 };
-
 requestFooter.send();
+
+
+
