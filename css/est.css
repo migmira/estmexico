@@ -122,6 +122,10 @@ a:hover {
         top: 0px;
         margin-top: 1em;
     }        
+    
+    .heading-section{
+        padding-top: 2rem;
+    }
 }
 
 .sicon{
