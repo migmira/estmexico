@@ -79,9 +79,9 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.form-control{
-    color:white;
-}
+/*.form-control{*/
+/*    color:white;*/
+/*}*/
 
 #offcanvas-menu ul li.active > a {
     color: #FFAA19;
