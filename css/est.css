@@ -179,3 +179,9 @@ a:hover {
 .products li{
     color: black;
 }
+
+.fh5co-property{
+    -webkit-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55);
+    box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55)
+}
