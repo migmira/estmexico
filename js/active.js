@@ -3,27 +3,32 @@ $( document ).ready(function() {
 	var path = window.location.pathname;
 	console.log(path)
 	
-	var temp = $('#productos')
-	// if (temp.length){
-	// 	console.log(temp);
-	// 	console.log("exitse");
-	// }
-	// else
-	// 	console.log("no");
+	function cctv(){
+		$("#productos").addClass("active");
+        $("#cctv").addClass('active');
+	}
 	
-	switch( path ) {
-		case '/migmira/estmexico/cctv.html':
-			$("#productos").addClass("active");
-	        $("#cctv").addClass('active');
-			break;
-	    case '/migmira/estmexico/cctv-kit1.html':
-	        $("#productos").addClass("active");
-	        $("#cctv").addClass('active');
-	        break;
-	    case '/migmira/estmexico/cctv-kit2.html':
-	        break;
-	        
-	    default:
-	    	break;
-	}    
+    $(document).on('DOMNodeInserted', function(e) {
+
+        // console.log(e);
+   
+		switch( path ) {
+			case '/migmira/estmexico/cctv.html':
+				cctv();
+				break;
+		    case '/migmira/estmexico/cctv-kit1.html':
+				cctv();
+		        break;
+		    case '/migmira/estmexico/cctv-kit2.html':
+				cctv();
+		        break;
+		        
+		    default:
+		    	break;
+		}    
+		
+
+		
+    });
+	
 })
