@@ -38,6 +38,21 @@ $( document ).ready(function() {
 			case '/estmexico/cctv-kit2.html':
 				cctv();
 				break;
+			case '/estmexico/cctv-kit3.html':
+				cctv();
+				break;
+			case '/estmexico/cctv-kit4.html':
+				cctv();
+				break;
+			case '/estmexico/cctv-kit5.html':
+				cctv();
+				break;
+			case '/estmexico/cctv-kit6.html':
+				cctv();
+				break;
+			case '/estmexico/cctv-kit7.html':
+				cctv();
+				break;
 
 			default:
 				break;
