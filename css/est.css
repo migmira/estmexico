@@ -11,16 +11,17 @@ body p{
 }
 
 .sf-menu li:hover a, .sf-menu li.sfHover a, .sf-menu ul li:hover a, .sf-menu ul li.sfHover a, .sf-menu li.active a {
-    color: #FFAA19;
+    color: #FFAA19!important;
 }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
-    color: #FFAA19;
+    color: #FFAA19!important;
 }
 
 .sf-menu a:hover, .sf-menu a:focus {
     color: #FFAA19 !important;
 }
+
 
 .heading-section h3 {
     font-size: 40px;
@@ -189,4 +190,9 @@ a:hover {
 .product-video{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+#fh5co-properties {
+    padding: 5em 0;
 }
