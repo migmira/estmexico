@@ -4,7 +4,7 @@
 	$field_email = $_POST['email'];
 	$field_message = $_POST['message'];
 
-	$body = 'Nuevo Mensaje de Contacto<br><br>'
+	$body = '<strong>Nuevo Mensaje de Contacto a través de la página web</strong> <br><br>'
 	.'<strong> Nombre: </strong>'		. $field_name 	. '<br><br>'
 	.'<strong> Email:  </strong>'		. $field_email  . '<br><br>'
 	.'<strong> Mensaje: </strong>'	. $field_message;

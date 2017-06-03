@@ -196,3 +196,15 @@ a:hover {
 #fh5co-properties {
     padding: 6em 0;
 }
+
+#fh5co-contact .heading-section {
+    margin-bottom: 0rem;
+}
+
+#fh5co-contact .contact-info li a {
+    color: black;
+}
+
+#fh5co-contact .contact-info li {
+    color: black;
+}
