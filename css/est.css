@@ -181,9 +181,9 @@ a:hover {
 }
 
 .fh5co-property{
-    -webkit-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55);
-    box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.55)
+    -webkit-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px -96px 115px -23px rgba(0, 0, 0, 0.4)
 }
 
 .product-video{
