@@ -5,9 +5,9 @@
 	$field_message = $_POST['message'];
 
 	$body = 'Nuevo Mensaje de Contacto<br><br>'
-	.'<strong> Nombre: '. $field_name . '</strong>' 
-	.'<br> Email:            '. $field_email  
-	.'<br> Mensaje:          '. $field_message;
+	.'<strong> Nombre: </strong>'		. $field_name 	. '<br><br>'
+	.'<strong> Email:  </strong>'		. $field_email  . '<br><br>'
+	.'<strong> Mensaje: </strong>'	. $field_message;
 
 
 	require_once '../swift/lib/swift_required.php';
