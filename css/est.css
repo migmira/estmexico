@@ -145,6 +145,7 @@ a:hover {
 
 .property-details p{
     color: black;
+    max-height:70px;
 }
 
 .products img{
