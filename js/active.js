@@ -78,8 +78,8 @@ $( document ).ready(function() {
 			case '/contacto.html':
 				$("#contacto").addClass('active');
 				break;
-			case '/preguntas.html':
-				$("#preguntas").addClass('active');
+			case '/nosotros.html':
+				$("#nosotros").addClass('active');
 				break;
 
 			default:
