@@ -109,9 +109,24 @@ figure {
     text-align: center !important; } }
 
 #fh5co-hero {
-  min-height: 700px;
+  min-height: 550px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   position: relative; }
+
+
+@media (max-width: 767px) {
+  #fh5co-hero {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  #fh5co-hero {
+    min-height: 400px;
+  }
+}
+
+
 #fh5co-hero .overlay {
   position: absolute;
   top: 0;
@@ -134,7 +149,7 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  min-height: 500px;
   position: relative; }
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 40px;
@@ -876,7 +891,7 @@ div.cs-select span {
   font-size: 16px; }
 
 #fh5co-features {
-  padding: 7em 0; }
+  padding: 1em 0; }
 #fh5co-features .feature-left {
   margin-bottom: 40px; }
 @media screen and (max-width: 992px) {

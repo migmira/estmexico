@@ -216,7 +216,7 @@ a:hover {
 
 #fh5co-header-section {
     padding: 0;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     position: relative;
     left: 0;
     width: 100%;
@@ -224,3 +224,11 @@ a:hover {
     background: #fff;
 }
 
+.marcas div{
+    min-height: 150px;
+}
+
+.marcas img{
+    margin: auto;
+    max-height: 100px;
+}
