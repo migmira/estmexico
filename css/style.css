@@ -109,7 +109,7 @@ figure {
     text-align: center !important; } }
 
 #fh5co-hero {
-  min-height: 550px;
+  min-height: 490px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   position: relative; }
 
@@ -149,7 +149,7 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 500px;
+  min-height: 460px;
   position: relative; }
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 40px;
@@ -233,6 +233,7 @@ figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .desc {
   width: 100%;
   padding: 2.5em;
+  padding-bottom: 1em;
   background: rgba(0, 0, 0, 0.7);
   margin-left: 1em; }
 @media screen and (max-width: 768px) {
